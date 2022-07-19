@@ -1,0 +1,269 @@
+@font-face {
+  font-family: bold;
+  src: url("../fonts/Cairo-Bold.ttf");
+}
+@font-face {
+  font-family: regular;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgb(29, 37, 33);
+  background-size: cover;
+  padding: 50px 50px 50px 50px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: bold;
+  font-size: 25px;
+  color: green;
+}
+.nav {
+  display: flex;
+}
+.nav .nav-itme {
+  font-family: bold;
+  font-size: 20px;
+  padding: 0px 25px;
+  color: white;
+}
+.nav-itme:hover {
+  color: green;
+  text-decoration: underline;
+}
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.tasty h1 {
+  font-family: bold;
+  font-size: 50px;
+  color: green;
+}
+.tasty h2 {
+  font-family: bold;
+  font-size: 40px;
+  color: white;
+}
+.btn {
+  font-family: regular;
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5%;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: darkgreen;
+  color: grey;
+}
+.fruite-img {
+  width: 400px;
+  height: 400px;
+}
+.about-us {
+  padding: 40px 0px 10px 40px;
+  text-align: center;
+}
+.about-us h1 {
+  font-family: bold;
+  font-size: 20px;
+  color: green;
+}
+.middle-content {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 85px;
+}
+.about-us h2 {
+  font-family: bold;
+  font-size: 35px;
+  color: white;
+}
+.about-us .lorem {
+  font-family: regular;
+  font-size: 25px;
+  color: gray;
+  text-align: center;
+  padding: 10px 100px 0px 100px;
+}
+.third-content {
+  padding-top: 40px;
+}
+.third-content h1 {
+  font-family: bold;
+  font-size: 20px;
+  color: green;
+  text-align: center;
+}
+.third-content h2 {
+  font-family: bold;
+  font-size: 30px;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+}
+.fourth-content h1 {
+  font-family: bold;
+  font-size: 25;
+  text-align: center;
+  color: green;
+}
+.fourth-content h2 {
+  font-family: bold;
+  font-size: 35;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.first-order {
+  background-color: #151d19;
+  border: none;
+  border-radius: 5%;
+  padding: 20px;
+  text-align: center;
+}
+.first-order:hover {
+  transform: scale(1.2, 1.2);
+  translate: transform;
+}
+.second-order {
+  background-color: #151d19;
+  border: none;
+  border-radius: 5%;
+  padding: 20px;
+  text-align: center;
+}
+.second-order:hover {
+  transform: scale(1.2, 1.2);
+  translate: transform;
+}
+.third-order {
+  background-color: #151d19;
+  border: none;
+  border-radius: 5%;
+  padding: 20px;
+  text-align: center;
+}
+.third-order:hover {
+  transform: scale(1.2, 1.2);
+  translate: transform;
+}
+.first-order p {
+  font-family: bold;
+  font-size: 25px;
+  color: white;
+}
+.first-order .cut-price {
+  font-family: bold;
+  font-size: 30px;
+  color: rgb(83, 83, 83);
+}
+.second-order p {
+  font-family: bold;
+  font-size: 25px;
+  color: white;
+}
+.second-order .cut-price {
+  font-family: bold;
+  font-size: 30px;
+  color: rgb(83, 83, 83);
+}
+.third-order p {
+  font-family: bold;
+  font-size: 25px;
+  color: white;
+}
+.third-order .cut-price {
+  font-family: bold;
+  font-size: 30px;
+  color: rgb(83, 83, 83);
+}
+.fifth-content {
+  padding-top: 40px;
+}
+.contact-us {
+  display: flex;
+}
+.quations h1 {
+  font-family: bold;
+  font-size: 25px;
+  color: white;
+}
+.quations h2 {
+  font-family: bold;
+  font-size: 35px;
+  color: green;
+  padding-top: 10px;
+}
+.quations p {
+  font-family: regular;
+  font-size: 23px;
+  color: gray;
+  width: 60%;
+}
+.final-content {
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.smarttic-logo {
+  font-family: bold;
+  font-size: 25px;
+  color: green;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.first-link {
+  padding: 0px 110px;
+}
+.first-link h1 {
+  font-family: bold;
+  font-size: 35px;
+  color: green;
+  /* padding: 5px 0px; */
+}
+.link-item {
+  padding: 10px 20px;
+  font-family: regular;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.link-item:hover {
+  color: green;
+  text-decoration: underline;
+}
+.next-btn {
+  float: right;
+  font-family: rgular;
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5%;
+  padding: 10px 20px;
+  /* margin-bottom: 10px; */
+}
+.next-btn:hover {
+  background-color: darkgreen;
+  color: grey;
+}
